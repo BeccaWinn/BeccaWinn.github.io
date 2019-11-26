@@ -1,0 +1,241 @@
+/* 
+.center{
+    position: absolute;
+    top:60%;
+    left:35%;
+    /* transform:translate(-50%, -50%); */
+    /* font-size:30px;
+    /* color:rgb(59, 5, 5);     */
+    /* color:rgb(26, 17, 15); */ 
+/* } */
+h1{
+    font-size:35px;
+}
+
+img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10px; 
+    
+}
+.button1 {
+    text-align: center;
+    background-color:white;
+    border:1px solid black;
+    color:black;
+    font-size: 25px;
+    margin-top:25px;
+    font-family: 'Overlock SC', cursive;
+
+}
+.form{
+    /* background-color:lightpink; */
+    text-align: center;
+    padding-left:100px;
+    padding-right:100px;
+    padding-bottom:20px;
+    padding-top:20px;
+    
+    margin-bottom:50px;
+    
+    /* background-color:rgb(26, 17, 15); */
+
+}
+label{
+    color:black;
+}
+.form1{
+    /* background-color:whitesmoke; */
+    text-align: center;
+    padding-left:100px;
+    padding-right:100px;
+    padding-bottom:25px;
+    padding-top:25px;
+    margin-bottom:50px;
+    /* border-style:solid; */
+    /* border-width:2px;
+    border-color:black; */
+    display:none;
+}
+input{
+
+    line-height:15px;
+    padding:5px;
+    font-family: 'Lemonada', cursive;
+
+}
+input[type=text]:focus{
+    border:3px solid #555;
+}
+.musicform div{
+    padding:12px;
+}
+.form1 div{
+    padding:12px;
+}
+/* .heading{
+    position: absolute;
+    height:115px;
+    width:1500px;    
+    background-color:white;
+} */
+body{
+    margin:0;
+    background-color:white;
+    
+}
+img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10px; 
+    
+}
+li button{
+    text-align: center;
+    background-color:white;
+    border:1px solid black;
+    color:black;
+    font-size: 20px;
+    margin-top:15px;
+    margin-right:10px;
+    font-family: 'Overlock SC', cursive;
+}
+li p{
+    margin:15px;
+}
+.musicform{
+    background-color:whitesmoke;
+    text-align: center;
+    padding-left:100px;
+    padding-right:100px;
+    padding-bottom:25px;
+    padding-top:25px;
+    margin-bottom:50px;
+    border-style:solid;
+    border-width:2px;
+    border-color:black
+}
+.musicform1{
+    background-color:whitesmoke;
+    text-align: center;
+    padding-left:100px;
+    padding-right:100px;
+    padding-bottom:25px;
+    padding-top:25px;
+    margin-bottom:50px;
+    border-style:solid;
+    border-width:2px;
+    border-color:black;
+    width:350px;
+}
+h1{
+    text-align:center;
+    /* padding-top:10px; */
+    /* margin-top:0px;
+    padding-top:50px;
+    padding-bottom:30px;
+    margin-bottom:10px; */
+    color:rgb(28, 150, 144);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin:0;
+    font-size:55px;
+    font-family: 'Titillium Web', sans-serif
+}
+label{
+    /* font-family: 'Lemonada', cursive; */
+    font-size:25px;
+    font-family: 'Overlock SC', cursive;
+
+    
+
+}
+
+.button1 {
+    text-align: center;
+    background-color:white;
+    border:1px solid black;
+    color:black;
+    font-size: 25px;
+    margin-top:25px;
+    font-family: 'Overlock SC', cursive;
+
+}
+input{
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    line-height:15px;
+    padding:5px;
+    font-family: 'Lemonada', cursive;
+
+}
+.center{
+    position: absolute;
+    top:17%;
+    left:35%;
+    /* transform:translate(-50%, -50%); */
+    font-size:40px;
+    /* color:rgb(59, 5, 5);     */
+    color:black;
+}
+.items{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Overlock SC', cursive;
+    font-size:25px;
+    padding: 20px;
+    padding-top:35px;;
+    text-align: center;
+    margin-top:135px;
+    border-color:rgb(28, 150, 144);
+}
+li {
+    padding:25px;
+    background-color:whitesmoke;
+    text-align: center;
+    border-style:solid;
+    border-width:2px;
+    border-color:rgb(28, 150, 144);
+    
+}
+.heading{
+    position: absolute;
+    margin-top:35px;
+    padding-top:15px;
+    height:115px;
+    width:1550px;
+    opacity: 0.5;
+    
+    background-color:white;
+}
+.head{
+    font-size:25px;
+    font-family: 'Lemonada', cursive;
+
+}
+#formedit{
+    background-color:whitesmoke;
+    text-align: center;
+    padding-left:100px;
+    padding-right:100px;
+    padding-bottom:25px;
+    padding-top:25px;
+    margin-bottom:50px;
+    border-style:solid;
+    border-width:2px;
+    border-color:black;
+    
+}
+#edit-form{
+    display:none;
+    position: fixed;
+    top: 5;
+    bottom: 0;
+    left: 6;
+    right: 6;
+    transition: opacity 500ms;
+    opacity: 1;
+}
